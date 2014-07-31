@@ -1,0 +1,17 @@
+{
+    "name": "angular_perf",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "http-server": "^0.6.1"
+    },
+    "scripts": {
+        "start": "node_modules/.bin/http-server.cmd -a localhost -p 8001"
+    }
+}

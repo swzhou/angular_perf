@@ -1,0 +1,25 @@
+{
+  "name": "angular_perf",
+  "version": "0.0.1",
+  "description": "performance tuning",
+  "authors": [
+    "swzhou"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.21",
+    "underscore": "~1.6.0",
+    "html5-boilerplate": "~4.3.0",
+    "bootstrap": "~3.2.0",
+    "angular-route": "~1.2.21",
+    "angular-bindonce": "~0.3.1",
+    "angular-virtual-scroll": "~0.6.2"
+  }
+}
