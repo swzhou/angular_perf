@@ -1,8 +1,9 @@
 <h4>Big Table</h4>
-<div>
+<div class="viewport">
     <div>
         <table class="table table-striped">
             <tr>
+                <th>#</th>
                 <th>col1</th>
                 <th>col2</th>
                 <th>col3</th>
@@ -13,6 +14,7 @@
                 <th>col8</th>
             </tr>
             <tr sf-virtual-repeat="row in rows">
+                <td>{{$index}}</td>
                 <td row.col1>{{row.col1}}</td>
                 <td row.col1>{{row.col2}}</td>
                 <td row.col1>{{row.col3}}</td>
